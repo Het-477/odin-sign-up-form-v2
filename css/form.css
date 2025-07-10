@@ -1,4 +1,5 @@
 .right-form-section {
+    font-family: 'roboto';
     height: 100%;
     width: 60%;
 }
@@ -13,7 +14,7 @@
     flex-direction: column;
     background: var(--info-bg-color);
     height: 38%;
-    padding: 2.5rem 2rem 0.4rem 2rem;
+    padding: 0.4rem 2rem 0.2rem 2rem;
     gap: 0.4rem;
 
     font-size: 1.2rem;
@@ -35,19 +36,19 @@
 /* selects the whole form (including heading and button) which is wrapped inside an unnamed/unclassed div */
 .form-container>div:first-child {
     border: 2px solid black;
-    padding: 1.5rem;
-    margin-bottom: 1.4rem;
+    padding: 1.4rem 2rem 0.8rem 2rem;
     display: flex;
     flex-direction: column;
 }
 
 .form-container h1 {
-    font-family: 'roboto';
+    margin-bottom: 8px;
 }
 
 .form-row {
     display: flex;
     gap: 16px;
+    gap: 5.8rem;
 }
 
 /* selects both in label and input to align them vertically in a column */
@@ -56,3 +57,19 @@
     flex-direction: column;
 }
 
+.form-row label {
+    font-family: 'roboto';
+    font-size: 1.1rem;
+    letter-spacing: 0.125rem;
+    margin-bottom: 4px;
+}
+
+.form-row input {
+    font-size: 1.34rem;
+    padding: 0.125rem;
+    margin-bottom: 0.8rem;
+}
+
+form {
+    gap: 1.5rem;
+}
