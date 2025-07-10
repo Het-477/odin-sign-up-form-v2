@@ -1,0 +1,58 @@
+.right-form-section {
+    height: 100%;
+    width: 60%;
+}
+
+.anything-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    background: var(--info-bg-color);
+    height: 38%;
+    padding: 2.5rem 2rem 0.4rem 2rem;
+    gap: 0.4rem;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'roboto';
+    text-wrap: wrap;
+
+    & p:last-child {
+        align-self: flex-start;
+    }
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* selects the whole form (including heading and button) which is wrapped inside an unnamed/unclassed div */
+.form-container>div:first-child {
+    border: 2px solid black;
+    padding: 1.5rem;
+    margin-bottom: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container h1 {
+    font-family: 'roboto';
+}
+
+.form-row {
+    display: flex;
+    gap: 16px;
+}
+
+/* selects both in label and input to align them vertically in a column */
+.form-row>div {
+    display: flex;
+    flex-direction: column;
+}
+
