@@ -73,3 +73,27 @@
 form {
     gap: 1.5rem;
 }
+
+.create-login-acc-section button {
+    align-self: flex-start;
+    font-size: 1.4rem;
+    padding: 0.6rem 1rem;
+    background-color: var(--btn-clr);
+    color: aliceblue;
+    border-style: none;
+    border-radius: 6px;
+    /* margin-left: ; */
+
+    &:hover {
+        background-color: var(--btn-hover-clr);
+        transition: ease 0.2s;
+    }
+}
+
+.create-login-acc-section {
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0.4rem 2rem;
+}
