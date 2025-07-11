@@ -1,0 +1,19 @@
+.repo-creator-credit {
+    font-family: var(--para-font-family-2);
+    margin-top: 0.6rem;
+
+    & p {
+        font-size: 1.1rem;
+        font-weight: 200;
+    }
+
+    & .frustration,
+    .hard,
+    .edge-cases {
+        color: red;
+    }
+
+    & .love  {
+        color: oklch(86.773% 0.25 7.009);
+    }
+}
