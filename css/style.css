@@ -12,15 +12,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --info-bg-color: oklch(89.143% 0.0001 271.152);
+    --info-bg-color: oklch(96.143% 0.0001 271.152);
     --logo-font-clr: whitesmoke;
     --logo-font-family: 'norse-bold';
     --para-font-family: 'roboto', sans-serif;
     --para-font-family-2: 'Mona Sans', sans-serif;
     --info-font-size: 1rem;
 
-    --btn-clr: oklch(70.32% 0.05927 139.663);
-    --btn-hover-clr: oklch(50.32% 0.05927 139.663);
+    --btn-clr:  oklch(60.813% 0.06093 131.389);
+    --btn-hover-clr:  oklch(50.813% 0.06093 131.389);
     --btn-clr-2: oklch(63.939% 0.08500 319.746);
 
     --form-padding: 1.2rem 1.8rem 0.8rem 1.8rem;
@@ -34,7 +34,8 @@
 
     height: 100vh;
     height: 100svh;
-    border: 5px solid red;
+
+    /* border: 5px solid red; */
 }
 
 .form-wrapper-container {
@@ -42,12 +43,15 @@
     height: 92%;
     width: 90%;
     border: 2px solid black;
+    border-radius: 0.8rem;
+    /* background: #ABD9FF; */
+
 }
 
 .left-hero-section {
     height: 100%;
     width: 40%;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
 }
 
 .left-hero-section .hero-img {
