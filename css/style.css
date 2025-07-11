@@ -19,8 +19,8 @@
     --para-font-family-2: 'Mona Sans', sans-serif;
     --info-font-size: 1rem;
 
-    --btn-clr:  oklch(60.813% 0.06093 131.389);
-    --btn-hover-clr:  oklch(50.813% 0.06093 131.389);
+    --btn-clr: oklch(60.813% 0.06093 131.389);
+    --btn-hover-clr: oklch(50.813% 0.06093 131.389);
     --btn-clr-2: oklch(63.939% 0.08500 319.746);
 
     --form-padding: 1.2rem 1.8rem 0.8rem 1.8rem;
@@ -59,4 +59,9 @@
     width: 100%;
     object-fit: cover;
     position: relative;
+}
+
+.left-hero-section .hero-img,
+.form-wrapper-container {
+    border-radius: 1.8rem 0 0 1.8rem;
 }
